@@ -1,0 +1,74 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "d755cfca-198c-417d-b590-e5d11d17c456",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "2c887e32-c0f8-4c28-adef-740602572c5e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a3882b15-7dc3-4bdf-966f-e4d2f65db3fe",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Keybord",
+            "id": "a61f7e39-9651-4598-b79c-90adf97aa281",
+            "actions": [
+                {
+                    "name": "Skip week",
+                    "type": "Button",
+                    "id": "eb95ed85-fb29-4ac1-87ed-6e3e4d1277e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b492088e-d81d-41da-957d-17e95c5b6d2e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip week",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
